@@ -4,7 +4,8 @@ import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import { useState} from "react";
 function App() {
-  const [show, setShow] = useState(false);
+  const [showMe, setShowMe] = useState(true);
+  const [showPort, setShowPort] = useState(false);
   return (
     <div className="App">
       <header className="App-header">
@@ -18,10 +19,10 @@ function App() {
       </header>
       <div className="body">
         <div className="bodyMain">
-          <AboutMe vis={show} />
-          <Portfolio vis={show}/>
+          <AboutMe vis={showMe} />
+          <Portfolio vis={showPort}/>
         </div>
-        <SideNav vis={show} setVis={setShow} />
+        <SideNav visMe={showMe} setVisMe={setShowMe} visPort = {showPort} setVisPort={setShowPort} />
       </div>
     </div>
   );

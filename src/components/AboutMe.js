@@ -2,8 +2,9 @@ import React from "react";
 import "./aboutme.css";
 
 function AboutMe(props) {
-  let showing = "visible";
+  let showing;
   if (props.vis === true) showing = "visible";
+  if (props.vis === false) showing = "hidden";
   return (
     <div style={{ visibility: showing }}>
       <p>

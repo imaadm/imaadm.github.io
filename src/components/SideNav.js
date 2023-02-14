@@ -1,9 +1,9 @@
 import React from "react";
 import "./sidenav.css";
-function SideNav() {
+function SideNav(props) {
   return (
     <div className="sidenav">
-      <p>About Me</p>
+      <p onClick={()=>{}}>About Me</p>
       <p>Portfolio</p>
       <p>Links</p>
     </div>

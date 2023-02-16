@@ -1,4 +1,16 @@
-.links a {
-    text-decoration: none;
-    color: turquoise;
+.contactlinks {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: calc(16px + 2vmin);
+}
+.contactlinks a {
+  text-decoration: none;  color: turquoise;
+
+}
+
+.contactlinks :hover {
+  color: cornflowerblue;
 }

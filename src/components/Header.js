@@ -7,9 +7,9 @@ function Header(){
         <header className="App-header">
         <p onClick={()=> navigate("/")}>Imaad Mohammed</p>
         <div className="links">
-          <div onClick={() => navigate("/about")}>About Me</div>
-          <div onClick={() => navigate("/portfolio")}>Portfolio</div>
-          <div onClick={() => navigate("/contact")}>Contact Info</div>
+          <button onClick={() => navigate("/about")}>About Me</button>
+          <button onClick={() => navigate("/portfolio")}>Portfolio</button>
+          <button onClick={() => navigate("/contact")}>Contact Info</button>
         </div>
         <hr className="line"></hr>
       </header>

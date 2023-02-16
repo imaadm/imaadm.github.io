@@ -1,10 +1,14 @@
 import React from "react";
 import "./portfolio.css";
-
+import mern from "./../assets/mern.png";
 function Portfolio(props) {
-  let showing;
-  if (props.vis === true) showing = "visible";
-  if (props.vis === false) showing = "hidden";
-  return <div style={{ visibility: showing }}>Portfolio</div>;
+  return (
+    <div className="portfolio">
+      <div className="taskManager">
+        MERN Task Manager
+        {/* <img src={mern} alt="MERN Task Manager"></img> */}
+      </div>
+    </div>
+  );
 }
 export default Portfolio;

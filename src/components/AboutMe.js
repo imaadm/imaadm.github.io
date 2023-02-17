@@ -1,17 +1,16 @@
 import React from "react";
 import "./aboutme.css";
+import pic from "./../assets/profilepic.jpeg"
 
 function AboutMe(props) {
   return (
     <div className="about">
+      <img src={pic} alt="This is me!" width={"80%"}/>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        Welcome to my website! I am a recent CS grad from Cal Poly Pomona. 
+        I've done development in several languages, including C++, Java, Python, and Javascript.
+        I have some data mining experience with Python, and have done all sorts of object oriented Java and C++ programming. 
+        I enjoy web development and have been doing full-stack and front-end web development.
       </p>
     </div>
   );

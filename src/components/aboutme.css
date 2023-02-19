@@ -1,10 +1,11 @@
 .about {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    gap: 3em;
-    font-size: 20px
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+  font-size: 20px;
+  height: 20em;
 }
 .about img {
-    border-radius: 50%;
+  border-radius: 50%;
 }

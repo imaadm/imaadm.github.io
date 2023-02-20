@@ -2,28 +2,36 @@
   text-align: center;
   font-size: calc(20px + 2vmin);
   position: sticky;
-  top: 0;
-  z-index: 1;
-  background-color: #282c34
+  background-color: #1e293b;
+  display: flex;
+  margin-top: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
 }
 .App-header p {
 }
 .links {
+  margin-left: auto;
   display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: center;
-  gap: 20px;
-  color: turquoise; font-size: 
-  calc(12px + 2vmin);
+  gap: 1em;
+  color: turquoise;
+  font-size: calc(12px + 2vmin);
 }
 .links button {
   all: unset;
-  cursor: pointer
+  cursor: pointer;
+}
+.links a {
+  all: unset;
+  color: turquoise;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
 }
 .links :hover {
   color: cornflowerblue;
 }
 .line {
-    width: 50vw;
-  }
+  width: 50vw;
+}

@@ -1,14 +1,12 @@
 body {
-  background-color: #282c34;
+  background-color: #1e293b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   color: white;
-  margin-left: 20em;
-  margin-right: 20em;
+  max-width: 100%;
 }
-
-
-
-
-
+.body {
+  margin-left: 20%;
+  margin-right: 20%;
+}

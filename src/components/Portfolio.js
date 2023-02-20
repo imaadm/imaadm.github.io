@@ -11,38 +11,103 @@ import order2 from "./../assets/menuOrdering2.png";
 
 function Portfolio(props) {
   return (
-    <div className="portfolio">
+    <div className="portfolio text-center justify-center items-center mb-10">
       <div className="taskManager">
         <h1>Planner - Summer 2022</h1>
-        <img src={mern} alt="MERN Task Manager" width={"60%"}></img>
+        <img
+          className="mx-auto my-4"
+          src={mern}
+          alt="MERN Task Manager"
+          width={"60%"}
+        ></img>
         <p>
           Built with the MERN stack and the MUI library
           <br />
           Used React router for paging between login, register, and home page
           <br />
         </p>
+        <a
+          href="https://github.com/imaadm/Senior-Project"
+          className=" px-3 py-3 bg-cyan-600  rounded-lg mt-8 inline-block "
+        >
+          View on Github
+        </a>
       </div>
+      <hr className="my-8" />
       <div className="java">
         <h1>Java Spring Task Manager - Spring 2022</h1>
-        <img src={spring} alt="Spring Task Manager" width={"60%"}></img>{" "}
+        <img
+          className="mx-auto my-4"
+          src={spring}
+          alt="Spring Task Manager"
+          width={"60%"}
+        ></img>
         <p>Built with Java Spring using Vaadin, hosted on AWS using EC2</p>
-      </div>
+        <a
+          href="https://github.com/Bronco-Coders/task-manager"
+          className=" px-3 py-3 bg-cyan-600  rounded-lg mt-8  inline-block "
+        >
+          View on Github
+        </a>
+      </div>{" "}
+      <hr className="my-8" />
       <div className="calpal">
         <h1>Cal Pal - Fall 2021</h1>
-        <img src={calpal} alt="Calorie Tracker App" width={"20%"}></img>
-        <img src={calpal2} alt="Calorie Tracker App" width={"20%"}></img>
-        <img src={calpal3} alt="Calorie Tracker App" width={"20%"}></img>
-        <img src={calpal4} alt="Calorie Tracker App" width={"20%"}></img>{" "}
+        <div className="flex flex-row ">
+          <img
+            className="ml-auto my-4"
+            src={calpal}
+            alt="Calorie Tracker App"
+            width={"20%"}
+          ></img>
+          <img
+            className="my-4"
+            src={calpal2}
+            alt="Calorie Tracker App"
+            width={"20%"}
+          ></img>
+          <img
+            className="my-4"
+            src={calpal3}
+            alt="Calorie Tracker App"
+            width={"20%"}
+          ></img>
+          <img
+            className="mr-auto my-4"
+            src={calpal4}
+            alt="Calorie Tracker App"
+            width={"20%"}
+          ></img>
+        </div>
         <p>
           Flutter application using Firebase built with Gradle
           <br /> Uses official formulas and estimations to provide helpful
           calculations for BMI, BMR, and calories burned
         </p>
-      </div>
+        <a
+          href="https://github.com/imaadm/health_fitness_app"
+          className=" px-3 py-3 bg-cyan-600  rounded-lg mt-8 inline-block "
+        >
+          View on Github
+        </a>
+      </div>{" "}
+      <hr className="my-8" />
       <div className="menu">
         <h1>Order Helper - Fall 2021</h1>
-        <img src={order1} alt="Restaurant Ordering App" width={"40%"}></img>
-        <img src={order2} alt="Restaurant Ordering App" width={"40%"}></img>
+        <div className="flex flex-row">
+          <img
+            className="ml-auto my-4"
+            src={order1}
+            alt="Restaurant Ordering App"
+            width={"40%"}
+          ></img>
+          <img
+            className="mr-auto my-4"
+            src={order2}
+            alt="Restaurant Ordering App"
+            width={"40%"}
+          ></img>
+        </div>
         <p>Kotlin application built with Gradle</p>
       </div>
     </div>

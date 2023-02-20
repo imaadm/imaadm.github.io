@@ -1,4 +1,7 @@
-.portfolio {
-    text-align: center;
-    justify-content: center;
+
+.portfolio h1 {
+    font-size: 2em;
+}
+.portfolio p {
+    font-size: 1.2em;
 }

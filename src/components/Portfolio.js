@@ -28,7 +28,7 @@ function Portfolio(props) {
         </p>
         <a
           href="https://github.com/imaadm/Senior-Project"
-          className=" px-3 py-3 bg-cyan-600  rounded-lg mt-8 inline-block "
+          className=" px-3 py-3 bg-cyan-600 hover:bg-cyan-700 rounded-lg mt-8 inline-block "
         >
           View on Github
         </a>
@@ -42,10 +42,10 @@ function Portfolio(props) {
           alt="Spring Task Manager"
           width={"60%"}
         ></img>
-        <p>Built with Java Spring using Vaadin, hosted on AWS using EC2</p>
+        <p>Built with Java Spring and MongoDB, using Vaadin for the frontend, hosted on AWS using EC2</p>
         <a
           href="https://github.com/Bronco-Coders/task-manager"
-          className=" px-3 py-3 bg-cyan-600  rounded-lg mt-8  inline-block "
+          className=" px-3 py-3 bg-cyan-600 hover:bg-cyan-700 rounded-lg mt-8  inline-block "
         >
           View on Github
         </a>
@@ -86,7 +86,7 @@ function Portfolio(props) {
         </p>
         <a
           href="https://github.com/imaadm/health_fitness_app"
-          className=" px-3 py-3 bg-cyan-600  rounded-lg mt-8 inline-block "
+          className=" px-3 py-3 bg-cyan-600 hover:bg-cyan-700 rounded-lg mt-8 inline-block "
         >
           View on Github
         </a>

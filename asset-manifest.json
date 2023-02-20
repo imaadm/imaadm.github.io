@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.23c50ad0.css",
-    "main.js": "/static/js/main.8217692f.js",
+    "main.css": "/static/css/main.4b0d3877.css",
+    "main.js": "/static/js/main.16468b96.js",
     "static/media/menuOrdering1.png": "/static/media/menuOrdering1.56c37de4735e0f13b940.png",
+    "static/media/landscape.jpg": "/static/media/landscape.02ed04750d021e1b649b.jpg",
     "static/media/menuOrdering2.png": "/static/media/menuOrdering2.b68913365bc9fb1e38f4.png",
     "static/media/mern.png": "/static/media/mern.fea38757578d96ac097b.png",
     "static/media/profilepic.jpeg": "/static/media/profilepic.e09e4b637f638eecea31.jpeg",
     "static/media/calpal.png": "/static/media/calpal.6f1482167f8fdb8039ad.png",
     "static/media/java.png": "/static/media/java.7824fb647653df366f72.png",
+    "static/media/node.png": "/static/media/node.fc3bd1ec69d7a50e685a.png",
     "static/media/calpal4.png": "/static/media/calpal4.c38c28be913d63461d41.png",
     "static/media/calpal2.png": "/static/media/calpal2.b6cb757063b780bf99bc.png",
     "static/media/calpal3.png": "/static/media/calpal3.3e5964e10f3aa059b8fa.png",
+    "static/media/react.png": "/static/media/react.b76698cf6e821b8a8758.png",
+    "static/media/javalogo.png": "/static/media/javalogo.d0be53e356542c3f88d2.png",
+    "static/media/css.png": "/static/media/css.58dfbebae4a02001b50e.png",
+    "static/media/js.png": "/static/media/js.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.23c50ad0.css.map": "/static/css/main.23c50ad0.css.map",
-    "main.8217692f.js.map": "/static/js/main.8217692f.js.map"
+    "main.4b0d3877.css.map": "/static/css/main.4b0d3877.css.map",
+    "main.16468b96.js.map": "/static/js/main.16468b96.js.map"
   },
   "entrypoints": [
-    "static/css/main.23c50ad0.css",
-    "static/js/main.8217692f.js"
+    "static/css/main.4b0d3877.css",
+    "static/js/main.16468b96.js"
   ]
 }

@@ -2,15 +2,14 @@
   text-align: center;
   font-size: calc(20px + 2vmin);
   position: sticky;
-  background-color: #1e293b;
   display: flex;
-  margin-top: 1%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 5%;
+  padding-top: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  height: 10vh;
 }
-.App-header p {
-}
+
 .links {
   margin-left: auto;
   display: flex;

@@ -18,7 +18,7 @@ function Portfolio(props) {
           className="mx-auto my-4"
           src={mern}
           alt="MERN Task Manager"
-          width={"60%"}
+          width={"45%"}
         ></img>
         <p>
           Built with the MERN stack and the MUI library
@@ -40,7 +40,7 @@ function Portfolio(props) {
           className="mx-auto my-4"
           src={spring}
           alt="Spring Task Manager"
-          width={"60%"}
+          width={"45%"}
         ></img>
         <p>Built with Java Spring and MongoDB, using Vaadin for the frontend, hosted on AWS using EC2</p>
         <a
@@ -58,25 +58,25 @@ function Portfolio(props) {
             className="ml-auto my-4"
             src={calpal}
             alt="Calorie Tracker App"
-            width={"20%"}
+            width={"12%"}
           ></img>
           <img
             className="my-4"
             src={calpal2}
             alt="Calorie Tracker App"
-            width={"20%"}
+            width={"12%"}
           ></img>
           <img
             className="my-4"
             src={calpal3}
             alt="Calorie Tracker App"
-            width={"20%"}
+            width={"12%"}
           ></img>
           <img
             className="mr-auto my-4"
             src={calpal4}
             alt="Calorie Tracker App"
-            width={"20%"}
+            width={"12%"}
           ></img>
         </div>
         <p>
@@ -99,13 +99,13 @@ function Portfolio(props) {
             className="ml-auto my-4"
             src={order1}
             alt="Restaurant Ordering App"
-            width={"40%"}
+            width={"30%"}
           ></img>
           <img
             className="mr-auto my-4"
             src={order2}
             alt="Restaurant Ordering App"
-            width={"40%"}
+            width={"30%"}
           ></img>
         </div>
         <p>Kotlin application built with Gradle</p>

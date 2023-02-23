@@ -4,8 +4,8 @@ import "./header.css";
 function Header() {
   let navigate = useNavigate();
   return (
-    <header className="App-header">
-      <div className="name">Imaad Mohammed</div>
+    <header className="App-header ">
+      <div >Imaad Mohammed</div>
       <div className="links">
         <button onClick={() => navigate("/")}>About Me</button>
         <button onClick={() => navigate("/portfolio")}>Portfolio</button>

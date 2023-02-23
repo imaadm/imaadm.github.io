@@ -7,7 +7,7 @@ function App() {
   return (
     <HashRouter>
       <Header />
-      <div className="body ">
+      <div className="h-[90vh]">
         <Routes>
           <Route path="/" element={<AboutMe />} />
           <Route path="/about" element={<AboutMe />} />

@@ -63,7 +63,7 @@ function Portfolio(props) {
   };
 
   return (
-    <div className="text-center justify-evenly items-center mb-10  mx-96">
+    <div className="text-center justify-evenly items-center mx-96">
       <Project {...projects[currentProject]} />{" "}
       <button className={portButton} onClick={back}>
         Back

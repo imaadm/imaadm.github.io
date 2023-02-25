@@ -64,13 +64,15 @@ function Portfolio(props) {
 
   return (
     <div className="text-center justify-evenly items-center mx-96">
-      <Project {...projects[currentProject]} />{" "}
-      <button className={portButton} onClick={back}>
-        Back
-      </button>
-      <button className={portButton} onClick={next}>
-        Next
-      </button>
+      <Project {...projects[currentProject]} />
+      <div className="mt-8 mb-16">
+        <button className={portButton} onClick={back}>
+          Back
+        </button>
+        <button className={portButton} onClick={next}>
+          Next
+        </button>
+      </div>
     </div>
   );
 }

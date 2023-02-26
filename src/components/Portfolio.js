@@ -11,7 +11,7 @@ import order2 from "./../assets/menuOrdering2.png";
 import Project from "./Project";
 import { useState } from "react";
 let portButton =
-  "text-white bg-gradient-to-r from-indigo-400 via-indigo-500 to-indigo-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:focus:ring-indigo-800 shadow-lg shadow-indigo-500/50 dark:shadow-lg dark:shadow-indigo-800/80 font-medium rounded-lg text-lg text-center mx-8 h-14 w-24";
+  "text-white bg-gradient-to-r from-indigo-400 via-indigo-500 to-indigo-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-indigo-300 dark:focus:ring-indigo-800 shadow-lg shadow-indigo-500/50 dark:shadow-lg dark:shadow-indigo-800/80 font-medium rounded-lg text-med text-center mx-8 h-12 w-20";
 
 let projects = [
   {
@@ -63,7 +63,7 @@ function Portfolio(props) {
 
   return (
     <div className="portfolio">
-      <h1 className="text-6xl py-20 font-semibold">What I've Worked On</h1>
+      <h1 className="text-5xl py-20 font-semibold">What I've Worked On</h1>
       <Project {...projects[currentProject]} />
       <div className="pt-8 pb-16">
         <button className={portButton} onClick={back}>

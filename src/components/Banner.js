@@ -8,8 +8,8 @@ import html from "./../assets/html.png";
 import css from "./../assets/css.png";
 function Banner(props) {
   return (
-    <div className=" bg-indigo-400 text-white">
-      <div className="logos flex flex-row justify-center  gap-28 py-20">
+    <div className=" bg-indigo-400 py-12">
+      <div className="logos flex flex-row justify-center gap-28 py-12">
         <img src={js} alt="jslogo"></img>
         <img src={html} alt="htmllogo"></img>
         <img src={css} alt="cssjavalogo"></img>
@@ -18,7 +18,7 @@ function Banner(props) {
         <img src={java} alt="javalogo"></img>
         <img src={python} alt="pythonlogo"></img>
       </div>
-      <h1 className="text-3xl pb-12">
+      <h1 className="text-2xl">
         This page was built in React with Tailwind CSS
       </h1>
     </div>

@@ -9,8 +9,8 @@ function App() {
       <Header />
       <div className="text-center bg-gradient-to-b  from-cyan-500 to-blue-800">
         <AboutMe />
-        <Portfolio/>
-        <Footer/>
+        <Footer />
+        <Portfolio />
       </div>
     </div>
   );

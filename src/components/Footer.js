@@ -8,7 +8,7 @@ import html from "./../assets/html.png";
 import css from "./../assets/css.png";
 function Footer(props) {
   return (
-    <div>
+    <div className=" bg-sky-900 ">
       <div className="logos flex flex-row justify-center  gap-28 py-20">
         <img src={js} alt="jslogo"></img>
         <img src={html} alt="htmllogo"></img>

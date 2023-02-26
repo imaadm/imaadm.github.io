@@ -2,14 +2,15 @@ import "./App.css";
 import AboutMe from "./components/AboutMe";
 import Header from "./components/Header";
 import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import Banner from "./components/Banner";
+import Skills from "./components/Skills";
 function App() {
   return (
     <div>
       <Header />
-      <div className="text-center bg-gradient-to-b  from-cyan-500 to-blue-800">
+      <div className="text-center">
         <AboutMe />
-        <Footer />
+        <Banner />
         <Portfolio />
       </div>
     </div>

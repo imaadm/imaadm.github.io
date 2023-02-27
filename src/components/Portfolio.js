@@ -33,14 +33,14 @@ let projects = [
   {
     name: "Cal Pal - Fall 2021",
     description:
-      "Flutter application using Firebase built with Gradle\nUses official formulas and estimations to provide helpful calculations for BMI, BMR, and calories burned",
+      "Flutter application using Firebase built with Gradle. Uses official formulas and estimations to provide helpful calculations for BMI, BMR, and calories burned",
     link: "https://github.com/imaadm/health_fitness_app",
     images: [calpal, calpal2, calpal3, calpal4],
     id: 3,
   },
   {
     name: "Order Helper - Fall 2021",
-    description: "Kotlin application built with Gradle",
+    description: "Kotlin application built with Gradle. Emulates an application for a server to handle orders at tables",
     images: [order1, order2],
     id: 4,
   },

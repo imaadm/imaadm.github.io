@@ -9,8 +9,8 @@ import css from "./../assets/css.png";
 import "./banner.css";
 function Banner(props) {
   return (
-    <div className=" bg-indigo-400 py-12">
-      <div className="logos flex flex-row justify-center gap-28 py-12">
+    <div className=" bg-indigo-400 py-8">
+      <div className="logos flex flex-row justify-center gap-28 py-8">
         <img src={js} alt="jslogo"></img>
         <img src={html} alt="htmllogo"></img>
         <img src={css} alt="cssjavalogo"></img>

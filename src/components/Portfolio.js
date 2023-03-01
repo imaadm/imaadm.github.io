@@ -63,7 +63,7 @@ function Portfolio(props) {
 
   return (
     <div className="portfolio">
-      <h1 className="text-5xl py-20 font-semibold">What I've Worked On</h1>
+      <h1 className="text-5xl py-16 font-semibold">What I've Worked On</h1>
       <Project {...projects[currentProject]} />
       <div className="pt-8 pb-16">
         <button className={portButton} onClick={back}>

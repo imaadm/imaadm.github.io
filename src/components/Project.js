@@ -13,14 +13,14 @@ function Project(props) {
     <div>
     <div className="flex flex-col items-center">
       <h1 className=" text-4xl mb-8">{props.name}</h1>
-      <div className="flex items-center w-[120rem] h-[50rem]">
+      <div className="flex items-center lg:w-[120rem] lg:h-[50rem]">
         {props.images.map((img) => {
            if (props.id === 3)            
-           return <img className={"first:ml-auto last:mr-auto w-[20%] h-full"} src={img} alt=""></img>;
+           return <img className={"first:ml-auto last:mr-auto w-28 h-auto sm:w-[20%] sm:h-full med:w-[20%] med:h-full lg:w-[20%] lg:h-full"} src={img} alt=""></img>;
            if (props.id=== 4)           
-           return <img className={"first:ml-auto last:mr-auto w-[40%] h-full"} src={img} alt=""></img>;
+           return <img className={"first:ml-auto last:mr-auto w-56 h-auto sm:w-[40%] sm:h-full med:w-[40%] med:h-full lg:w-[40%] lg:h-full"} src={img} alt=""></img>;
            else 
-           return <img className="first:ml-auto last:mr-auto w-[80%] h-full" src={img} alt=""></img>;
+           return <img className="first:ml-auto last:mr-auto w-[28rem] h-auto sm:w-[80%] sm:h-full med:w-[80%] med:h-full lg:w-[80%] lg:h-full" src={img} alt=""></img>;
 })}
       </div>
       <p className="mt-8 mb-10 text-2xl">{props.description}</p>

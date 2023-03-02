@@ -1,5 +1,4 @@
 import React from "react";
-import "./portfolio.css";
 import mern from "./../assets/mern.png";
 import spring from "./../assets/java.png";
 import calpal from "./../assets/calpal.png";
@@ -62,7 +61,7 @@ function Portfolio(props) {
   };
 
   return (
-    <div className="portfolio">
+    <div className="bg-[#33314C]">
       <h1 className="text-5xl py-16 font-semibold">What I've Worked On</h1>
       <Project {...projects[currentProject]} />
       <div className="pt-8 pb-16">

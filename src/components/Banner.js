@@ -1,6 +1,7 @@
 import React from "react";
 import java from "./../assets/javalogo.png";
 import js from "./../assets/js.png";
+import ts from "./../assets/ts.png"
 import node from "./../assets/node.png";
 import react from "./../assets/react.png";
 import python from "./../assets/python.png";
@@ -9,8 +10,9 @@ import css from "./../assets/css.png";
 function Banner(props) {
   return (
     <div className=" bg-indigo-400 py-8">
-      <div className="logos flex flex-row justify-center gap-4 sm:gap-12 med:gap-28 lg:gap-28 py-8">
-        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={js} alt="jslogo"></img>
+      <div className="flex flex-row justify-center gap-4 sm:gap-12 med:gap-28 lg:gap-28 py-8">
+        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={js} alt="jslogo"></img>        
+        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={ts} alt="tslogo"></img>
         <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={html} alt="htmllogo"></img>
         <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={css} alt="cssjavalogo"></img>
         <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={react} alt="reactlogo"></img>

@@ -10,15 +10,15 @@ import css from "./../assets/css.png";
 function Banner(props) {
   return (
     <div className=" bg-indigo-400 py-8">
-      <div className="flex flex-row justify-center gap-4 sm:gap-12 med:gap-28 lg:gap-28 py-8">
-        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={js} alt="jslogo"></img>        
-        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={ts} alt="tslogo"></img>
-        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={html} alt="htmllogo"></img>
-        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={css} alt="cssjavalogo"></img>
-        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={react} alt="reactlogo"></img>
-        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={node} alt="nodelogo"></img>
-        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={java} alt="javalogo"></img>
-        <img className="max-h-12 sm:max-h-20 med:max-h-28 lg:max-h-28" src={python} alt="pythonlogo"></img>
+      <div className="flex flex-row justify-center gap-4 sm:gap-12 med:gap-24 lg:gap-24 py-8">
+        <img className="max-h-12 sm:max-h-20 med:max-h-24 lg:max-h-24" src={js} alt="jslogo"></img>        
+        <img className="max-h-12 sm:max-h-20 med:max-h-24 lg:max-h-24" src={ts} alt="tslogo"></img>
+        <img className="max-h-12 sm:max-h-20 med:max-h-24 lg:max-h-24" src={html} alt="htmllogo"></img>
+        <img className="max-h-12 sm:max-h-20 med:max-h-24 lg:max-h-24" src={css} alt="cssjavalogo"></img>
+        <img className="max-h-12 sm:max-h-20 med:max-h-24 lg:max-h-24" src={react} alt="reactlogo"></img>
+        <img className="max-h-12 sm:max-h-20 med:max-h-24 lg:max-h-24" src={node} alt="nodelogo"></img>
+        <img className="max-h-12 sm:max-h-20 med:max-h-24 lg:max-h-24" src={java} alt="javalogo"></img>
+        <img className="max-h-12 sm:max-h-20 med:max-h-24 lg:max-h-24" src={python} alt="pythonlogo"></img>
       </div>
       <h1 className="text-2xl">
         This page was built in React with Tailwind CSS

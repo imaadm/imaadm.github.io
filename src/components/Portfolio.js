@@ -61,7 +61,7 @@ function Portfolio(props) {
   };
 
   return (
-    <div className="bg-[#33314C]">
+    <div className="bg-[#33314C] max-w-[100%]">
       <h1 className="text-5xl py-16 font-semibold">What I've Worked On</h1>
       <Project {...projects[currentProject]} />
       <div className="pt-8 pb-16">
